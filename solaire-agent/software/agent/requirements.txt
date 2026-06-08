@@ -1,0 +1,15 @@
+# Core AI pipeline
+openWakeWord
+pyaudio
+numpy
+requests
+
+# Vision
+Pillow
+
+# Display / GPIO
+RPi.GPIO
+luma.lcd
+
+# Utilities
+python-dotenv

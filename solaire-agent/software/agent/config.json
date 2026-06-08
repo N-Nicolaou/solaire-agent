@@ -1,0 +1,23 @@
+{
+  "wake_word_model": "hey_solaire.onnx",
+  "whisper_model": "base.en",
+  "ollama_model": "gemma2:2b",
+  "tts_model": "en_US-solaire-medium",
+  "vision_model": "moondream",
+  "ollama_host": "http://localhost:11434",
+  "display": {
+    "width": 320,
+    "height": 240,
+    "fps": 15
+  },
+  "audio": {
+    "sample_rate": 16000,
+    "channels": 1,
+    "chunk_size": 1280
+  },
+  "personality": {
+    "system_prompt": "You are Solaire of Astora, a jolly, optimistic knight from Dark Souls. You speak with enthusiasm, use archaic but cheerful language, and often reference the sun, jolly cooperation, and your quest. Keep responses concise and in character. Never break character.",
+    "greeting": "Ah, a fellow undead! Praise the Sun! How may Solaire assist you today?",
+    "farewell": "Until next we meet, undead. Jolly cooperation awaits!"
+  }
+}
