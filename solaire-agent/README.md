@@ -78,7 +78,7 @@ solaire-agent/
 
 | Component | Purpose | Est. Cost |
 |---|---|---|
-| Raspberry Pi 5 (8GB) | Main compute | ~£75-80 |
+| Raspberry Pi 5 (8GB) | Main compute | ~£168 |
 | Small HDMI/DSI LCD | Face display | ~£25 |
 | USB Microphone | Voice input | ~£10 |
 | Speaker + PAM8403 amp | Voice output | ~£12 |
@@ -88,7 +88,7 @@ solaire-agent/
 | Custom PCB (JLCPCB) | Power + audio routing | ~£10 |
 | 3D print filament | Enclosure | ~£15 |
 | Misc (wiring, connectors) | Assembly | ~£10 |
-| **Total (estimated)** | | **~£180** |
+| **Total (estimated)** | | **~£273** |
 
 ---
 
