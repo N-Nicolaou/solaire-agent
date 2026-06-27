@@ -13,6 +13,13 @@ _Nicholas Nicolaou — Software Engineering with Electronics_
 - Defined system architecture: wake word → STT → LLM → TTS pipeline, fully local
 - Created GitHub repository and project structure
 - Drafted initial proposal document
+- Supervisor meeting held with Mohammed project approved
+- Provisional title agreed: "Solaire: Design, Implementation and 
+  Benchmarking of an Offline Embedded AI Agent on Consumer 
+  Single-Board Hardware"
+- Hardware ordered: Raspberry Pi 5 8GB, Active Cooler, 
+  27W Power Supply, 128GB microSD
+- Catch up meeting with Mohammed scheduled in two weeks
 
 ### Ongoing Summer Tasks
 - [ ] Clone and run be-more-agent on a Raspberry Pi — get familiar with the stack
