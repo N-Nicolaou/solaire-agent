@@ -20,6 +20,7 @@ _Nicholas Nicolaou — Software Engineering with Electronics_
 - Hardware ordered: Raspberry Pi 5 8GB, Active Cooler, 
   27W Power Supply, 128GB microSD
 - Catch up meeting with Mohammed scheduled in two weeks
+- Objectives have been refined into core and stretch goals ready for catch up meeting.
 
 ### Ongoing Summer Tasks
 - [ ] Clone and run be-more-agent on a Raspberry Pi — get familiar with the stack
