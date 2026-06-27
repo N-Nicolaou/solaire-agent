@@ -1,4 +1,4 @@
-# ☀️ Solaire — Embodied AI Agent
+# ☀️ Solaire — Design, Implementation and Benchmarking of an Offline Embedded AI Agent on Consumer Single-Board Hardware
 
 > *"Praise the Sun! ...Oh, don't be embarrassed. No need to be modest. Here, let me share it with you."*
 
