@@ -21,6 +21,7 @@ _Nicholas Nicolaou — Software Engineering with Electronics_
   27W Power Supply, 128GB microSD
 - Catch up meeting with Mohammed scheduled in two weeks
 - Objectives have been refined into core and stretch goals ready for catch up meeting.
+
 ## Week 2 — Software Stack Testing (Summer 2026)
 
 ### Completed this week
@@ -47,6 +48,22 @@ _Nicholas Nicolaou — Software Engineering with Electronics_
 - [ ] Browse Thingiverse/Printables for enclosure reference models
 - [ ] Read research papers and complete notes template
 - [ ] Fusion 360 tutorials for enclosure confidence
+
+## Week 3 — Full Pipeline Testing (Summer 2026)
+
+### Completed this week
+- Installed and tested Piper TTS on Windows laptop
+- Successfully generated speech output from text locally
+- Piper real-time factor: 0.12 (8x faster than real-time)
+- Full offline pipeline now proven on laptop:
+  Whisper.cpp ✅ → Ollama Gemma 2B ✅ → Piper TTS ✅
+- Remaining for Pi: OpenWakeWord + Moondream
+
+### Next steps
+- Wait for Raspberry Pi 5 to arrive
+- Set up Pi OS and SSH
+- Clone be-more-agent and run setup.sh
+- Begin adapting pipeline for Solaire
 
 ### Ongoing Summer Tasks
 - [ ] Clone and run be-more-agent on a Raspberry Pi — get familiar with the stack
