@@ -21,6 +21,32 @@ _Nicholas Nicolaou — Software Engineering with Electronics_
   27W Power Supply, 128GB microSD
 - Catch up meeting with Mohammed scheduled in two weeks
 - Objectives have been refined into core and stretch goals ready for catch up meeting.
+## Week 2 — Software Stack Testing (Summer 2026)
+
+### Completed this week
+- Installed Ollama on Windows laptop and ran Gemma 2B locally
+- Developed and refined Solaire personality system prompt (V2)
+- Tested personality across 4 scenarios: jolly cooperation, weather, 
+  Age of Fire lore, AI deflection — all passing
+- Installed Git, CMake, Visual Studio Build Tools on Windows
+- Built Whisper.cpp from source on Windows laptop
+- Downloaded ggml-base.en model (147MB)
+- Successfully transcribed voice locally using Whisper.cpp
+- Proved core pipeline works on laptop before Pi arrives:
+  OpenWakeWord (pending) → Whisper.cpp ✅ → Ollama ✅ → Piper TTS (pending)
+
+### Key findings
+- Whisper.cpp transcription time: ~1400-1800ms on laptop CPU
+- Gemma 2B handles Solaire personality well with correct prompting
+- "Solaire" transcribed as "Salah" — expected, OpenWakeWord handles 
+  wake phrase separately so Whisper never needs to recognise the name
+- Pi 5 estimated transcription time: 3-4 seconds for base.en model
+
+### Still to do before Pi arrives
+- [ ] Install and test Piper TTS on laptop
+- [ ] Browse Thingiverse/Printables for enclosure reference models
+- [ ] Read research papers and complete notes template
+- [ ] Fusion 360 tutorials for enclosure confidence
 
 ### Ongoing Summer Tasks
 - [ ] Clone and run be-more-agent on a Raspberry Pi — get familiar with the stack
