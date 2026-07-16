@@ -72,6 +72,27 @@ _Nicholas Nicolaou — Software Engineering with Electronics_
 - [ ] Research Piper TTS voice fine-tuning process
 - [ ] Complete ethics form ready for Year 3 submission
 
+### Voice Testing — Alan TTS
+- Tested multiple Piper TTS voices for Solaire
+- Selected en_GB-alan-medium as best available British male voice
+- Tested length_scale settings — 1.1 selected as optimal speed
+- Confirmed exclamation mark sentence structure sounds most natural
+- Identified future improvement: Kokoro TTS and voice fine tuning
+- Voice files saved: en_GB-alan-medium.onnx + .onnx.json
+
+### Eye Display Research
+- Decided against flat LCD display in helmet face
+- New concept: 2x GC9A01 Round 1.28" LCD displays for animated eyes
+- Confirmed Pi 5 compatible via SPI
+- Eye animation states planned and documented:
+  Idle: eyes closed
+  Wake word: eyes burst open gold/amber
+  Listening: pulsing amber glow
+  Thinking: rotating sun symbol
+  Speaking: bright animated eyes moving left/right
+  Error: confused squinting
+- Displays to order in second hardware batch from Pi Hut
+
 ---
 
 ## Year 3 — Semester 1 (Sep 2026 – Jan 2027)
